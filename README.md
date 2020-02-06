@@ -4,4 +4,4 @@
 
 - [Kristi Dugan](https://github.com/KristiDugan)
 - [Yomaira Escano](https://github.com/yomi413)
-- Add your name!
+- [Samantha Banks](https://github.com/techMomz704)

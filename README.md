@@ -1,5 +1,7 @@
 # Moms Can Code Cohort 5 Final Project
 
+[Preview site on GitHub pages](https://momscancode5.github.io/project/)
+
 ## Team Members
 
 - [Kristi Dugan](https://github.com/KristiDugan)

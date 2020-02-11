@@ -5,7 +5,7 @@
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0)
 		),
-		url("/images/makeup-palette.jpg");
+		url("../images/makeup-palette.jpg");
 	background-size: cover;
 	background-position: center;
 }

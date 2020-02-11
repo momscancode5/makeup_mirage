@@ -1,0 +1,11 @@
+.hero.has-image {
+	/* Photo by freestocks.org on Unsplash */
+	background-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0)
+		),
+		url("/images/makeup-palette.jpg");
+	background-size: cover;
+	background-position: center;
+}

@@ -25,7 +25,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 3. Use `git status` often to ensure your files are on the right path.
 4. Run `git add <filename>` to stage your changes.
 5. Run `git commit -m <Message>` to save your changes.
-6. Run `git push` to push your changes to the current branch.
+6. Run `git push origin <branch name>` to push your changes to the current branch.
 7. Once your changes have been pushed to the current branch, go to the remote repository on github.com and create a new pull request. Make sure you are comparing your branch with the master branch from the original repository.
 8. Wait until the original repository owner has merged your changes.
 9. When you want to make more changes, run `git pull` inside the master branch of your local repository.

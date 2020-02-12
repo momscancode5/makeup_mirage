@@ -9,3 +9,7 @@
 - [Emily Winerock](https://github.com/winerock)
 - [Samantha Banks](https://github.com/techMomz704)
 - Add your name!
+
+## Workflow for this project
+
+[Documentation](workflow.md)

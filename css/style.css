@@ -1,3 +1,4 @@
+/* Hero header banner images */
 .hero.has-image {
 	/* Photo by freestocks.org on Unsplash */
 	background-image: linear-gradient(
@@ -8,6 +9,42 @@
 		url("../images/makeup-palette.jpg");
 	background-size: cover;
 	background-position: center;
+}
+
+#trending .hero.has-image {
+	background-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0)
+		),
+		url("../images/newspaper.jpg");
+}
+
+#reporting .hero.has-image {
+	background-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0)
+		),
+		url("../images/phone-in-hands.jpg");
+}
+
+#resources .hero.has-image {
+	background-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0)
+		),
+		url("../images/person-using-laptop.jpg");
+}
+
+#contact .hero.has-image {
+	background-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0)
+		),
+		url("../images/woman-holding-tablet.jpg");
 }
 
 .notification {

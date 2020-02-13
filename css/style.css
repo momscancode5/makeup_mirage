@@ -9,3 +9,43 @@
 	background-size: cover;
 	background-position: center;
 }
+
+.notification {
+	padding: 1.25rem 1.5rem 2rem;
+}
+
+/* Color overrides */
+:root {
+	--color-danger: #b0436b;
+	--color-success: #c17695;
+	--color-primary: #696e8d;
+	--color-info: #7a557b;
+}
+
+.notification.is-primary {
+	background-color: var(--color-primary);
+}
+.button.is-primary.is-inverted {
+	color: var(--color-primary);
+}
+
+.notification.is-danger {
+	background-color: var(--color-danger);
+}
+.button.is-danger.is-inverted {
+	color: var(--color-danger);
+}
+
+.notification.is-success {
+	background-color: var(--color-success);
+}
+.button.is-success.is-inverted {
+	color: var(--color-success);
+}
+
+.notification.is-info {
+	background-color: var(--color-info);
+}
+.button.is-info.is-inverted {
+	color: var(--color-info);
+}

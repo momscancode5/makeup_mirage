@@ -1,0 +1,19 @@
+{
+  "name": "mccs-cohort5-final-project",
+  "version": "1.0.0",
+  "description": "MCCS Cohort 5 Final Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yomi413/project.git"
+  },
+  "author": "Makeup Mirage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yomi413/project/issues"
+  },
+  "homepage": "https://github.com/yomi413/project#readme"
+}

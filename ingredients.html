@@ -10,12 +10,11 @@
     />
     <link rel="stylesheet" href="css/ingredients.css" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
-    <script defer src="js/global.js"></script>
   </head>
 
   <body id="ingredients">
@@ -114,140 +113,7 @@
                   </tr>
                 </thead>
 
-                <tbody>
-                  <tr id="vitamin-a" class="info-row">
-                    <td>Vitamin A</td>
-                    <td>Retinol, Retinyl Palmitate (more stable form)</td>
-                    <td>
-                      Normalizes skin's texture and smoothes out fine lines.
-                    </td>
-                    <td>
-                      Retinol and retinyl palmitate are produced by commercial
-                      methods but can be found naturally in animal fats, in fish
-                      liver oil, and in plants that contain beta-carotene, a
-                      vitamin A precursor. Retinol is essential for vision,
-                      growth, and reproduction. Retinyl palmitate is produced
-                      from Retinol and is sometimes referred to as vitamin A
-                      palmitate when used as a nutrient or drug. In addition to
-                      their use in cosmetics and personal care products, both
-                      ingredients can be found in foods and in vitamin
-                      supplements.
-                    </td>
-                  </tr>
-
-                  <tr id="vitamin-c" class="info-row">
-                    <td>Vitamin C</td>
-                    <td>
-                      Ascorbic Acid; Ascorbyl Palmitate (derivative of Vitamin
-                      C)
-                    </td>
-                    <td>
-                      Skin lightening agent, pH adjuster, preservative, rebuilds
-                      healthy collagen fibers
-                    </td>
-                    <td>
-                      Ascorbic Acid is an essential nutrient required for
-                      collagen production, tissue repair, and for the synthesis
-                      of neurotransmitters. It also acts as an antioxidant,
-                      plays a role in resistance to infections, and is used for
-                      the treatment and prevention of scurvy. The U.S.
-                      Recommended Daily Allowance (RDA) for Ascorbic Acid is 75
-                      mg/kg/day for women and 90 mg/kg/day for men. Citrus
-                      fruits (orange, lemon, grapefruit, lime), tomatoes and
-                      potatoes are rich dietary sources of Ascorbic Acid.
-                    </td>
-                  </tr>
-
-                  <tr id="vitamin-e" class="info-row">
-                    <td>Vitamin E</td>
-                    <td>Tocopherol</td>
-                    <td>
-                      Prevents UV damage to skin and moisturizes skin
-                    </td>
-                    <td>
-                      Tocopherol, a fat-soluble vitamin, is found in vegetable
-                      fats and oils, dairy products, meat, eggs, cereals, nuts,
-                      and leafy green and yellow vegetables. It is usually
-                      present in these foods as mixtures of different forms:
-                      alpha-, beta-, gamma-, and delta-Tocopherol. The alpha
-                      form has the same biological activity as vitamin
-                      E.Tocopherols can be produced from vegetable oils or can
-                      be synthesized. Tocopherol Acetate, made by the
-                      esterification of Tocopherol with acetic acid, is
-                      frequently the source of vitamin E in dietary supplements.
-                    </td>
-                  </tr>
-
-                  <tr id="panthenol" class="info-row">
-                    <td>Panthenol</td>
-                    <td>Vitamin B5</td>
-                    <td>
-                      Humectant
-                    </td>
-                    <td>
-                      Panthenol and Pantothenic Acid (vitamin B5) have the same
-                      biological activity and Panthenol can be converted (by
-                      oxidation) to vitamin B5 in the skin. Pantothenic Acid is
-                      found in all living cells and tissues and is essential for
-                      normal metabolism and hormone production. In cosmetics and
-                      personal care products, two forms of Panthenol can be
-                      found: D-Panthenol occurs as a viscous oil and
-                      DL-Panthenol occurs as a creamy white, crystalline powder.
-                    </td>
-                  </tr>
-
-                  <tr id="alpha-hydroxy-acids" class="info-row">
-                    <td>Alpha Hydroxy Acids</td>
-                    <td>Citric acid, glycolic acid, lactic acid</td>
-                    <td>
-                      Aid in skin renewal by exfoliating top layer of epidermis,
-                      improves skin's texture, aids in better penetration of
-                      active ingredients, restores moisture and reduces wrinkles
-                    </td>
-                    <td>
-                      Alpha hydroxy acids are a group of natural acids found in
-                      foods. Alpha hydroxy acids include citric acid (found in
-                      citrus fruits), glycolic acid (found in sugar cane),
-                      lactic acid (found in sour milk and tomato juice), malic
-                      acid (found in apples), tartaric acid (found in grapes),
-                      and others.
-                    </td>
-                  </tr>
-
-                  <tr id="salicylic-acid" class="info-row">
-                    <td>Salicylic Acid</td>
-                    <td>A beta hydroxy acid</td>
-                    <td>
-                      Helps in exfoliation of dry skin and reduces oiliness,
-                      acne and appearance of fine lines. It is mostly used in
-                      treating adult acne and chemical peels.
-                    </td>
-                    <td>
-                      Also known as 2-hydroxybenzoic acid, salicylic acid occurs
-                      naturally in the bark of the willow tree, Salix alba, and
-                      methyl salicylate is present in wintergreen leaves,
-                      Gaultheria procumbens, and in sweet birch bark, Betula
-                      lenta. Salicylic acid is probably best known as a compound
-                      that is chemically similar but not identical to the active
-                      component of aspirin (acetylsalicylic acid).
-                    </td>
-                  </tr>
-
-                  <tr id="glycerine" class="info-row">
-                    <td>Glycerine</td>
-                    <td>Glycerin; glycerol</td>
-                    <td>
-                      Humectant; can improve moisture-retaining properties of
-                      skin care products
-                    </td>
-                    <td>
-                      Glycerin is a precursor for synthesis of triglycerides and
-                      phospholipids in the liver and fat tissues. When the body
-                      uses stored fat as a source of energy, glycerol and fatty
-                      acids are released into the bloodstream.
-                    </td>
-                  </tr>
-                </tbody>
+                <tbody class="table-body"></tbody>
               </table>
             </div>
           </div>
@@ -263,13 +129,11 @@
     </footer>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
 
     <!-- Add Firebase products that you want to use -->
     <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+    <script defer type="module" src="/ingredients.js"></script>
   </body>
 </html>

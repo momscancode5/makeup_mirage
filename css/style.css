@@ -86,3 +86,7 @@
 .button.is-info.is-inverted {
 	color: var(--color-info);
 }
+
+.card {
+	margin-bottom: 2em;
+}

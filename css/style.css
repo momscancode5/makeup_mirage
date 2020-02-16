@@ -20,6 +20,15 @@
 		url("../images/newspaper.jpg");
 }
 
+#ingredients .hero.has-image {
+	background-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0)
+		),
+		url("../images/scientist.jpg");
+}
+
 #reporting .hero.has-image {
 	background-image: linear-gradient(
 			to right,

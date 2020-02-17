@@ -1,4 +1,6 @@
 // import firebase from 'firebase/app'; import 'firebase/firestore';
+// require("dotenv").config();
+// console.log(process.env);
 
 // Your web app's Firebase configuration
 const firebaseConfig = {

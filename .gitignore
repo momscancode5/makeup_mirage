@@ -2,5 +2,3 @@
 .Trashes
 .vscode/
 node_modules/
-.env
-firebase.js

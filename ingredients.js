@@ -41,7 +41,6 @@ import "./firebase.js";
 
 firebase
   .firestore()
-
   .collection("ingredients")
   .onSnapshot(querySnapshot => {
     querySnapshot.forEach(docSnapshot => {
@@ -52,7 +51,7 @@ firebase
       const id = ingredient.toLowerCase().replace(/[^a-z]/g, "-");
       // console.log(id);
 
-      $('#accordion_first').append(
+      $("#accordion_first").append(
         `<article class="message">
           <div class="message-header">
             <p><a href="#collapsible-message-accordion-${id}" data-action="collapse">${ingredient}</a></p>
@@ -76,6 +75,25 @@ firebase
                 </table>
               </div>
             </div>
+          </div>
+        </article>`
+      );
+    });
+  });
+
+firebase
+  .firestore()
+  .collection("harmful_ingredients")
+  .onSnapshot(querySnapshot => {
+    querySnapshot.forEach(docSnapshot => {
+      const name = docSnapshot.data().name;
+      const id = name.toLowerCase().replace(/[^a-z]/g, "-");
+      console.log(name, id);
+
+      $("#accordion_second").append(
+        `<article class="message">
+          <div class="message-header">
+            <p><a href="#collapsible-message-accordion-${id}" data-action="collapse">${name}</a></p>
           </div>
         </article>`
       );

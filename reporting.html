@@ -13,58 +13,52 @@
 
 <body id="reporting">
 	<header>
-		<nav class="navbar" role="navigation" aria-label="main navigation">
-			<div class="navbar-brand">
-				<a class="navbar-item" href="index.html">
-					<img src="images/makeup-mirage.png" width="220" height="28">
-				</a>
-				<!-- Hamburger menu -->
-				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-					data-target="navbarBasicExample">
-					<span aria-hidden="true"></span>
-					<span aria-hidden="true"></span>
-					<span aria-hidden="true"></span>
-				</a>
-				<!-- end Hamburger menu -->
-			</div>
-			<!-- start Nav items -->
-			<div id="navbarBasicExample" class="navbar-menu">
-				<div class="navbar-start">
+		<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+			<div class="container">
+				<div class="navbar-brand">
 					<a class="navbar-item" href="index.html">
-						Home
+						<img src="images/makeup-mirage.png" width="220" height="28" />
 					</a>
-
-					<a class="navbar-item" href="trending.html">
-						Currently Trending
+					<!-- Hamburger menu -->
+					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+						data-target="navbarBasicExample">
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
 					</a>
-
-					<a class="navbar-item is-active" href="reporting.html">
-						Reporting
-					</a>
-
-					<a class="navbar-item" href="resources.html">
-						Resources
-					</a>
-
-					<div class="navbar-item has-dropdown is-hoverable">
-						<a class="navbar-link">
-							More
+					<!-- end Hamburger menu -->
+				</div>
+				<!-- start Nav items -->
+				<div id="navbarBasicExample" class="navbar-menu">
+					<div class="navbar-start">
+						<a class="navbar-item" href="index.html">
+							Home
 						</a>
 
-						<div class="navbar-dropdown">
-							<a class="navbar-item" href="about.html">
-								About
-							</a>
-							<a class="navbar-item" href="contact.html">
-								Contact
-							</a>
+						<a class="navbar-item" href="trending.html">
+							Currently Trending
+						</a>
 
-						</div>
+						<a class="navbar-item" href="ingredients.html">
+							Ingredients
+						</a>
+
+						<a class="navbar-item is-active" href="reporting.html">
+							Reporting
+						</a>
+
+						<a class="navbar-item" href="resources.html">
+							Resources
+						</a>
+
+						<a class="navbar-item" href="about.html">
+							About
+						</a>
+
 					</div>
 				</div>
-
+				<!-- end Nav items -->
 			</div>
-			<!-- end Nav items -->
 		</nav>
 	</header>
 	<main>
@@ -83,10 +77,11 @@
 
 
 		<section class="section">
-			<h3 class="title is-3">Where to report</h3>
-			<div class="columns">
-				<div class="column is-two-thirds">
-					<h4 class="title is-4">
+			<div class="container">
+				<h3 class="title is-3">Where to report</h3>
+				<div class="columns">
+					<div class="column content is-two-thirds">
+						<h4 class="title is-4">
 						A Reaction or Side Effect
 					</h4>
 					<p>An unexpected reaction or side effect to makeup can be serious. You might have an unknown allergy or sensitivity to an ingredient, 
@@ -121,17 +116,28 @@
 						nostrum voluptates reprehenderit?</p>
 				</div>
 
-
+				</div>
 			</div>
 		</section>
 
-
-
 	</main>
+  
 	<footer class="footer">
-		<div class="content has-text-centered">
+		<div class="container content has-text-centered has-text-grey">
+			<p>Copyright &copy; 2020 Makeup Mirage.</p>
 			<p>
-				Copyright &copy; 2020 Makeup Mirage.
+				<span class="icon is-medium">
+					<a href="https://twitter.com/MakeupMirage6" title="Twitter" target="_blank"><i
+							class="fab fa-lg fa-twitter has-text-grey-light"></i><span class="sr-only">Twitter</span></a>
+				</span>
+				<span class="icon is-medium">
+					<a href="mailto:makeupmirage6@gmail.com" title="Email"><i
+							class="far fa-lg fa-envelope has-text-grey-light"></i><span class="sr-only">Email</span></a>
+				</span>
+				<span class="icon is-medium">
+					<a href="https://github.com/momscancode5/project" title="GitHub" target="_blank"><i
+							class="fab fa-lg fa-github has-text-grey-light"></i><span class="sr-only">GitHub</span></a>
+				</span>
 			</p>
 		</div>
 	</footer>

@@ -1,14 +1,5 @@
-#ingredients .hero.has-image {
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0)
-    ),
-    url("../images/makeup-ingredients.png");
-}
-
 table,
 th,
 td {
-  /* border: 1px solid black; */
+	/* border: 1px solid black; */
 }

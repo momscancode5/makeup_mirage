@@ -49,42 +49,35 @@ firebase
       const aka = docSnapshot.data().also_known_as;
       const purpose = docSnapshot.data().purpose;
       const facts = docSnapshot.data().scientific_facts;
+      const id = ingredient.toLowerCase().replace(/[^a-z]/g, "-");
+      console.log(id);
 
-      $(".message").append(
-        `
-        <div id="accordion_first">
-          <div class="message-header">
-            <p>
-              <a
-                href="#collapsible-message-accordion-2"
-                data-action="collapse"
-                class="ingredient-name"
-              >${ingredient}</a>
-            </p>
-          </div>
-        </div>
-
+      $("#accordion_first").append(
+        `<article class="message">
+        <div class="message-header">
+        <p><a href="#collapsible-message-accordion-${id}" data-action="collapse">${ingredient}</a></p>
+      </div>
+      <div id="collapsible-message-accordion-${id}" class="message-body is-collapsible" data-parent="accordion_first">
         <div class="message-body-content">
           <div class="table-container">
             <table class="table is-fullwidth is-hoverable">
-              <tbody class="table-body">
-                <tr>
-                  <th>AKA</th>
-                  <td>${aka}</td>
-                </tr>
-                <tr>
-                  <th>Purpose</th>
-                  <td>${purpose}</td>
-                </tr>
-                <tr>
-                  <th>The&nbsp;Science</th>
-                  <td>${facts}</td>
-                </tr>
-              </tbody>
+              <tr>
+                <th>AKA</th>
+                <td>${aka}</td>
+              </tr>
+              <tr>
+                <th>Purpose</th>
+                <td>${purpose}</td>
+              </tr>
+              <tr>
+                <th>The&nbsp;Science</th>
+                <td>${facts}</td>
+              </tr>
             </table>
           </div>
         </div>
-      </div>`
+      </div>
+      </article>`
       );
     });
   });

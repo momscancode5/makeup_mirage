@@ -1,147 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Makeup Mirage - Ingredients</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="css/ingredients.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Makeup Mirage - Ingredients</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/ingredients.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <script defer src="js/global.js"></script>
-  </head>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
-  <body id="ingredients">
-    <header>
-      <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="container">
-          <div class="navbar-brand">
+  <script defer src="js/global.js"></script>
+</head>
+
+<body id="ingredients">
+  <header>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <img src="images/makeup-mirage.png" width="220" height="28" />
+          </a>
+          <!-- Hamburger menu -->
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+          <!-- end Hamburger menu -->
+        </div>
+        <!-- start Nav items -->
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
             <a class="navbar-item" href="index.html">
-              <img src="images/makeup-mirage.png" width="220" height="28" />
+              Home
             </a>
-            <!-- Hamburger menu -->
-            <a
-              role="button"
-              class="navbar-burger burger"
-              aria-label="menu"
-              aria-expanded="false"
-              data-target="navbarBasicExample"
-            >
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
+
+            <a class="navbar-item" href="trending.html">
+              Currently Trending
             </a>
-            <!-- end Hamburger menu -->
-          </div>
-          <!-- start Nav items -->
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item" href="index.html">
-                Home
-              </a>
 
-              <a class="navbar-item" href="trending.html">
-                Currently Trending
-              </a>
+            <a class="navbar-item is-active" href="ingredients.html">
+              Ingredients
+            </a>
 
-              <a class="navbar-item is-active" href="ingredients.html">
-                Ingredients
-              </a>
+            <a class="navbar-item" href="reporting.html">
+              Reporting
+            </a>
 
-              <a class="navbar-item" href="reporting.html">
-                Reporting
-              </a>
+            <a class="navbar-item" href="resources.html">
+              Resources
+            </a>
 
-              <a class="navbar-item" href="resources.html">
-                Resources
-              </a>
-
-              <a class="navbar-item" href="about.html">
-                About
-              </a>
-            </div>
-          </div>
-          <!-- end Nav items -->
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="hero is-medium is-primary has-image">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title">
-              Makeup Mirage
-            </h1>
-            <h2 class="subtitle">
-              Demystifying Makeup
-            </h2>
+            <a class="navbar-item" href="about.html">
+              About
+            </a>
           </div>
         </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <h4 class="title is-4">
-            Most Common Ingredients Found in Makeup
-          </h4>
-
-          <div id="accordion_first"></div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container content has-text-centered has-text-grey">
-        <p>Copyright &copy; 2020 Makeup Mirage.</p>
-        <p>
-          <span class="icon is-medium">
-            <a
-              href="https://twitter.com/MakeupMirage6"
-              title="Twitter"
-              target="_blank"
-              ><i class="fab fa-lg fa-twitter has-text-grey-light"></i
-              ><span class="sr-only">Twitter</span></a
-            >
-          </span>
-          <span class="icon is-medium">
-            <a href="mailto:makeupmirage6@gmail.com" title="Email"
-              ><i class="far fa-lg fa-envelope has-text-grey-light"></i
-              ><span class="sr-only">Email</span></a
-            >
-          </span>
-          <span class="icon is-medium">
-            <a
-              href="https://github.com/momscancode5/project"
-              title="GitHub"
-              target="_blank"
-              ><i class="fab fa-lg fa-github has-text-grey-light"></i
-              ><span class="sr-only">GitHub</span></a
-            >
-          </span>
-        </p>
+        <!-- end Nav items -->
       </div>
-    </footer>
+    </nav>
+  </header>
+  <main>
+    <section class="hero is-medium is-primary has-image">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Makeup Mirage
+          </h1>
+          <h2 class="subtitle">
+            Demystifying Makeup
+          </h2>
+        </div>
+      </div>
+    </section>
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+    <section class="section">
+      <div class="container content">
+        <h4 class="title is-4">
+          Most Common Ingredients Found in Makeup
+        </h4>
 
-    <!-- Add Firebase products that you want to use -->
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
-    <script defer type="module" src="ingredients.js"></script>
+        <div id="accordion_first"></div>
+      </div>
+    </section>
+  </main>
 
-    <!--Bulma scripts re collapsible-->
-    <script src="https://demo.creativebulma.net/components/bulma-collapsible/1.0/lib/bulma-collapsible.min.js"></script>
-    <script src="https://demo.creativebulma.net/components/bulma-collapsible/1.0/lib/index.js"></script>
-  </body>
+  <footer class="footer">
+    <div class="container content has-text-centered has-text-grey">
+      <p>Copyright &copy; 2020 Makeup Mirage.</p>
+      <p>
+        <span class="icon is-medium">
+          <a href="https://twitter.com/MakeupMirage6" title="Twitter" target="_blank"><i
+              class="fab fa-lg fa-twitter has-text-grey-light"></i><span class="sr-only">Twitter</span></a>
+        </span>
+        <span class="icon is-medium">
+          <a href="mailto:makeupmirage6@gmail.com" title="Email"><i
+              class="far fa-lg fa-envelope has-text-grey-light"></i><span class="sr-only">Email</span></a>
+        </span>
+        <span class="icon is-medium">
+          <a href="https://github.com/momscancode5/project" title="GitHub" target="_blank"><i
+              class="fab fa-lg fa-github has-text-grey-light"></i><span class="sr-only">GitHub</span></a>
+        </span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+  <script type="module" src="ingredients.js"></script>
+
+  <!--Bulma scripts re collapsible-->
+  <script src="js/bulma-collapsible.min.js"></script>
+  <script defer src="js/bulma-collapsible-index.js"></script>
+</body>
+
 </html>

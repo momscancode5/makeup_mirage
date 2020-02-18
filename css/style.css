@@ -1,3 +1,16 @@
+/* Move main down since top nav is fixed  */
+main {
+	margin-top: 3.25rem;
+}
+
+header nav {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+#what-we-do {
+	padding-bottom: 0.5rem;
+}
+
 /* Hero header banner images */
 .hero.has-image {
 	/* Photo by freestocks.org on Unsplash */

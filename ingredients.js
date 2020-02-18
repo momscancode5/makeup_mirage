@@ -14,23 +14,77 @@ import "./firebase.js";
 //   });
 // });
 
+// firebase
+//   .firestore()
+//   .collection("ingredients")
+//   .onSnapshot(querySnapshot => {
+//     querySnapshot.forEach(docSnapshot => {
+//       const ingredient = docSnapshot.data().ingredient_name;
+//       const aka = docSnapshot.data().also_known_as;
+//       const purpose = docSnapshot.data().purpose;
+//       const facts = docSnapshot.data().scientific_facts;
+
+//       $("#accordion_first").append(
+//         `
+//         <div class="message-header">
+//           <p>
+//             <a
+//               href="#collapsible-message-accordion-2"
+//               data-action="collapse"
+//               class="ingredient-name"
+//             >${ingredient}</a>
+//           </p>
+//         </div>`
+//       );
+//     });
+//   });
+
 firebase
   .firestore()
+
   .collection("ingredients")
   .onSnapshot(querySnapshot => {
     querySnapshot.forEach(docSnapshot => {
-      const ingredient_name = docSnapshot.data().ingredient_name;
+      const ingredient = docSnapshot.data().ingredient_name;
       const aka = docSnapshot.data().also_known_as;
       const purpose = docSnapshot.data().purpose;
       const facts = docSnapshot.data().scientific_facts;
 
-      $(".table-body").append(
-        `<tr>
-        <td>${ingredient_name}</td>
-        <td>${aka}</td>
-        <td>${purpose}</td>
-        <td>${facts}</td>
-      </tr>`
+      $(".message").append(
+        `
+        <div id="accordion_first">
+          <div class="message-header">
+            <p>
+              <a
+                href="#collapsible-message-accordion-2"
+                data-action="collapse"
+                class="ingredient-name"
+              >${ingredient}</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="message-body-content">
+          <div class="table-container">
+            <table class="table is-fullwidth is-hoverable">
+              <tbody class="table-body">
+                <tr>
+                  <th>AKA</th>
+                  <td>${aka}</td>
+                </tr>
+                <tr>
+                  <th>Purpose</th>
+                  <td>${purpose}</td>
+                </tr>
+                <tr>
+                  <th>The&nbsp;Science</th>
+                  <td>${facts}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>`
       );
     });
   });

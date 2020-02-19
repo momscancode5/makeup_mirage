@@ -1,17 +1,30 @@
 /* bulma-collapsible */
 
 .is-collapsible {
-	height: 0;
-	overflow-y: hidden;
-	transition: height 0.2s ease;
+  height: 0;
+  overflow-y: hidden;
+  transition: height 0.2s ease;
 }
 .is-collapsible.is-active {
-	transition: height 0.2s ease;
+  transition: height 0.2s ease;
 }
 .is-collapsible.message-body {
-	padding: 0 !important;
+  padding: 0 !important;
 }
 .is-collapsible.message-body .message-body-content {
-	padding: 1.25em 1.5em;
+  padding: 1.25em 1.5em;
 }
 /* end bulma-collapsible */
+
+/* color override */
+
+:root {
+  --color-danger: #b0436b;
+  --color-success: #c17695;
+  --color-primary: #696e8d;
+  --color-info: #7a557b;
+}
+
+.message-header {
+  background-color: var(--color-primary);
+}

@@ -16,15 +16,29 @@
 }
 /* end bulma-collapsible */
 
-/* color override */
-
-:root {
-  --color-danger: #b0436b;
-  --color-success: #c17695;
-  --color-primary: #696e8d;
-  --color-info: #7a557b;
+/* Common ingredients colors */
+.message.is-primary .message-header {
+  background-color: var(--color-primary);
 }
 
-.message-header {
-  background-color: var(--color-primary);
+.message.is-primary {
+  background-color: #e6e8f3;
+}
+
+/* Harmful ingredients colors */
+.message.is-danger .message-header {
+  background-color: var(--color-danger);
+}
+
+.message.is-danger {
+  background-color: #faeaf0;
+}
+
+/* Add some space above ingredient sections */
+#common-ingredients, #harmful-ingredients {
+  padding-top: 4.5rem;
+}
+
+#ingredients {
+  padding-bottom: 0;
 }

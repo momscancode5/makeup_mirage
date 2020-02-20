@@ -116,3 +116,7 @@ header nav {
 #contactInfo{
 	text-align: center;
 }
+
+#trending h4 {
+	padding-top: 4rem;
+}

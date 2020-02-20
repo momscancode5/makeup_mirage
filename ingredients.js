@@ -50,6 +50,8 @@ firebase
       const purpose = docSnapshot.data().purpose;
       const facts = docSnapshot.data().scientific_facts;
       const id = ingredient.toLowerCase().replace(/[^a-z]/g, "-");
+      const source = docSnapshot.data().source;
+      // Set first accordion item to be open by default
       let openByDefault = '';
       if (counter === 1) {
         openByDefault = ' is-active';
@@ -77,6 +79,10 @@ firebase
                     <th>The&nbsp;Science</th>
                     <td>${facts}</td>
                   </tr>
+                  <tr>
+                    <th>Source</th>
+                    <td><a href="${source}" target="_blank">${source}</a></td>
+                  </tr>
                 </table>
               </div>
             </div>
@@ -96,13 +102,14 @@ firebase
       const aka = docSnapshot.data().also_known_as;
       const purpose = docSnapshot.data().purpose;
       const facts = docSnapshot.data().scientific_facts;
+      const source = docSnapshot.data().source;
       const id = name.toLowerCase().replace(/[^a-z]/g, "-");
       let openByDefault = '';
       if (counter === 1) {
         openByDefault = ' is-active';
       }
       counter++;
-      console.log(name, id);
+      // console.log(name, id);
 
       $("#accordion-harmful-ingredients").append(
         `<article class="message is-danger">
@@ -122,8 +129,12 @@ firebase
                     <td>${purpose}</td>
                   </tr>
                   <tr>
-                    <th>The&nbsp;Science</th>
+                    <th>Health&nbsp;Concerns</th>
                     <td>${facts}</td>
+                  </tr>
+                  <tr>
+                    <th>Source</th>
+                    <td><a href="${source}" target="_blank">${source}</a></td>
                   </tr>
                 </table>
               </div>

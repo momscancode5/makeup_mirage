@@ -113,10 +113,14 @@ header nav {
 	margin-bottom: 2em;
 }
 
-#contactInfo{
+#contactInfo {
 	text-align: center;
 }
 
 #trending h4 {
 	padding-top: 4rem;
+}
+
+#reporting li > ul {
+	margin-top: 0;
 }

@@ -22,4 +22,4 @@ function doBulmaCollapseThings() {
 	// console.log('Hi there');
 	bulmaCollapsible.attach();
 }
-waitForIt(doBulmaCollapseThings, .4);
+waitForIt(doBulmaCollapseThings, 1);

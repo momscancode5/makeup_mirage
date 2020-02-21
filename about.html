@@ -10,11 +10,11 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 	<script defer src="js/global.js"></script>
 	<!-- favicon stuff -->
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="manifest" href="site.webmanifest">
-  <!-- end favicon stuff -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<!-- end favicon stuff -->
 </head>
 
 <body id="about">
@@ -86,87 +86,21 @@
 			<div class="container content">
 				<h3 class="title is-3">About us</h3>
 				<p class="subtitle">
-					We are a team of six students from the <a href="https://www.momscan.co/momscancode" 
-					target="blank">Moms Can Code School</a>, a program dedicated to enabling those with 
-					familial responsibilities to learn coding and web development skills through collaborative, 
-					project-based learning. This project, which included user surveys and data collection, as well 
-					as web design, development, and building, has benefited from our diverse perspectives and 
-					backgrounds. 
-				  </p>
-				</div>
+					We are a team of six students from the <a href="https://www.momscan.co/momscancode" target="blank">Moms Can
+						Code School</a>, a program dedicated to enabling those with
+					familial responsibilities to learn coding and web development skills through collaborative,
+					project-based learning. This project, which included user surveys and data collection, as well
+					as web design, development, and building, has benefited from our diverse perspectives and
+					backgrounds.
+				</p>
+			</div>
 			<br>
-				<div class="container">
+			<div class="container">
 				<div class="columns">
-					<div class="column is-two-thirds content">
-						<h4 class="title is-4">
-							Contact Us
-						</h4>
-						<form action="https://formspree.io/xeqkjvoy" method="post">
-							<input type="hidden" name="_subject" value="Makeup Mirage Form Submission" />
-			
-					<div class="field is-horizontal">
-						<div class="field-label is-normal">
-						  <label class="label">From</label>
-						</div>
-						<div class="field-body">
-						  <div class="field">
-							<p class="control is-expanded has-icons-left">
-							  <input class="input" type="text" placeholder="Name" name="_name">
-							  <span class="icon is-small is-left">
-								<i class="fas fa-user"></i>
-							  </span>
-							</p>
-						  </div>
-						  <div class="field-label is-normal">
-							<label class="label">Email</label>
-						  </div>
-						  <div class="field">
-							<p class="control is-expanded has-icons-left has-icons-right">
-							  <input class="input" type="email" placeholder="you@email.com">
-							  <span class="icon is-small is-left">
-								<i class="fas fa-envelope"></i>
-							  </span>
-							  <span class="icon is-small is-right">
-								<i class="fas fa-check"></i>
-							  </span>
-							</p>
-						  </div>
-						</div>
-					  </div>
-					  
-			
-					  <div class="field is-horizontal">
-						<div class="field-label is-normal">
-						  <label class="label">Message</label>
-						</div>
-						<div class="field-body">
-						  <div class="field">
-							<div class="control">
-							  <textarea class="textarea"></textarea>
-							</div>
-						  </div>
-						</div>
-					  </div>
-			
-					  <div class="field is-horizontal">
-						<div class="field-label">
-						  <!-- Left empty for spacing -->
-						</div>
-						<div class="field-body">
-						  <div class="field">
-							<div class="control">
-							  <button class="button is-primary" type="submit">
-								Send message
-							  </button>
-							</div>
-						  </div>
-						</div>
-						</div>
-						</form>
-					</div>
-					<div class="column content">
+					<div class="column is-one-half content">
 						<h4 class="title is-4">The Team</h4>
-						<p><b>Cohort 5 of <a href="https://www.momscan.co/momscancode" target="blank">Moms Can Code School</a></b></p>
+						<p><b>Cohort 5 of <a href="https://www.momscan.co/momscancode" target="blank">Moms Can Code School</a></b>
+						</p>
 						<ul>
 							<li>Samantha Banks</li>
 							<li>Shradha Doshi</li>
@@ -177,78 +111,76 @@
 						</ul>
 						<p><img src="images/women_stockphoto.jpg"></p>
 					</div>
+
+
+					<div class="column">
+						<h4 class="title is-4">
+							Contact Us
+						</h4>
+						<form action="https://formspree.io/xeqkjvoy" method="post">
+							<input type="hidden" name="_subject" value="Makeup Mirage Form Submission" />
+
+							<div class="field is-horizontal">
+								<div class="field-label is-normal sr-only">
+									<label class="label" for="name">From</label>
+								</div>
+								<div class="field-body">
+									<div class="field">
+										<p class="control is-expanded has-icons-left">
+											<input id="name" class="input" type="text" placeholder="Name" name="Name">
+											<span class="icon is-small is-left">
+												<i class="fas fa-user"></i>
+											</span>
+										</p>
+									</div>
+									<div class="field-label is-normal sr-only">
+										<label class="label" for="email">Email</label>
+									</div>
+									<div class="field">
+										<p class="control is-expanded has-icons-left has-icons-right">
+											<input id="email" class="input" type="email" placeholder="you@email.com">
+											<span class="icon is-small is-left">
+												<i class="fas fa-envelope"></i>
+											</span>
+											<!-- <span class="icon is-small is-right">
+												<i class="fas fa-check"></i>
+											</span> -->
+										</p>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="field is-horizontal">
+								<div class="field-label is-normal sr-only">
+									<label class="label" for="message">Message</label>
+								</div>
+								<div class="field-body">
+									<div class="field">
+										<div class="control">
+											<textarea id="message" class="textarea" placeholder="Your message"></textarea>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="field is-horizontal">
+								<div class="field-body">
+									<div class="field">
+										<div class="control">
+											<button class="button is-primary" type="submit">
+												Send message
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>
-		<section class="section">
-		<div class="container">
-			<h4 class="title is-4" id="contactInfo">Contact Us</h4>
-			<form action="https://formspree.io/xeqkjvoy" method="post">
-				<input type="hidden" name="_subject" value="Makeup Mirage Form Submission" />
-
-		<div class="field is-horizontal">
-			<div class="field-label is-normal">
-			  <label class="label">From</label>
-			</div>
-			<div class="field-body">
-			  <div class="field">
-				<p class="control is-expanded has-icons-left">
-				  <input class="input" type="text" placeholder="Name" name="_name">
-				  <span class="icon is-small is-left">
-					<i class="fas fa-user"></i>
-				  </span>
-				</p>
-			  </div>
-			  <div class="field-label is-normal">
-				<label class="label">Email</label>
-			  </div>
-			  <div class="field">
-				<p class="control is-expanded has-icons-left has-icons-right">
-				  <input class="input" type="email" placeholder="you@email.com">
-				  <span class="icon is-small is-left">
-					<i class="fas fa-envelope"></i>
-				  </span>
-				  <span class="icon is-small is-right">
-					<i class="fas fa-check"></i>
-				  </span>
-				</p>
-			  </div>
-			</div>
-		  </div>
-		  
-
-		  <div class="field is-horizontal">
-			<div class="field-label is-normal">
-			  <label class="label">Message</label>
-			</div>
-			<div class="field-body">
-			  <div class="field">
-				<div class="control">
-				  <textarea class="textarea"></textarea>
-				</div>
-			  </div>
-			</div>
-		  </div>
-
-		  <div class="field is-horizontal">
-			<div class="field-label">
-			  <!-- Left empty for spacing -->
-			</div>
-			<div class="field-body">
-			  <div class="field">
-				<div class="control">
-				  <button class="button is-primary" type="submit">
-					Send message
-				  </button>
-				</div>
-			  </div>
-			</div>
-			</div>
-			</form>
-		</div>
-
-		</section>
-
 
 
 	</main>

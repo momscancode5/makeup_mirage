@@ -1,6 +1,10 @@
 # Moms Can Code Cohort 5 Final Project
 
-[Preview site on GitHub pages](https://momscancode5.github.io/project/)
+## <a href="favicon-32x32.png" type="image/png" sizes="32x32"> Makeup Mirage
+
+What is in our makeup? Can we trust that all ingredients are safe? How do we know that the makeup we buy is real and not counterfeit? These are some of the questions that the Moms Can Code Cohort 5 team sought to answer as part of their final project.
+
+Our goal is to create a space where people can find information that will help them make informed decisions about the makeup they buy. Whether it's learning about the common ingredients found in makeup to providing educational materials to help identify counterfeit makeup, this website is about finding ways to equip all of us with relevant information under one unifying umbrella - Makeup Mirage.
 
 ## Team Members
 
@@ -8,8 +12,33 @@
 - [Yomaira Escano](https://github.com/yomi413)
 - [Emily Winerock](https://github.com/winerock)
 - [Samantha Banks](https://github.com/techMomz704)
-- Add your name!
+- [Shradha Doshi](https://github.com/shraddhakdoshi)
+- [Nadia Green](https://github.com/NKGREEN)
 
-## Workflow for this project
+## Getting Started
 
-[Documentation](workflow.md)
+You can interact with the newsletter by visiting the [Makeup Mirage](https://momscancode5.github.io/project/) site. Feel free to look around and click on the links. In addition, we want to hear from you. In our [About](about.html) page you can fill out the contact form and send. This contact form is connected that to a live email account.
+
+## Pull Requests Welcome
+
+### Prerequisites
+
+No prerequisites at this time.
+
+### Contribute
+
+Please follow our [workflow instructions](workflow.md) for access and contribution.
+
+## Contributing [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
+Bug reports and pull requests are welcome on GitHub at our [GitHub repository](https://github.com/momscancode5/project). This project is intended to be a safe, welcoming space of collaboration, and contributors are expected to adhere to the [Contributor Covenant Code of Conduct](Contributing.md).
+
+## License - The MIT License (MIT)
+
+Copyright (c) 2020 Kristi Dugan, Yomaira Escano, Emily Winerock, Samantha Banks, Shradha Doshi, Nadia Green
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

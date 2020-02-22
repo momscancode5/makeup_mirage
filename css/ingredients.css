@@ -42,3 +42,23 @@
 #ingredients {
   padding-bottom: 0;
 }
+
+/* Let URLs wrap to 2nd line */
+td a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+  th, td, tr {
+    display: block;
+  }
+
+  .content table th {
+    border: none;
+    padding-bottom: 0;
+  }
+}

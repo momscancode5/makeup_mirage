@@ -113,14 +113,24 @@ header nav {
 	margin-bottom: 2em;
 }
 
-#contactInfo {
-	text-align: center;
-}
-
 #trending h4 {
 	padding-top: 4rem;
 }
 
 #reporting li > ul {
 	margin-top: 0;
+}
+
+/* Make Send message button default to wide (mobile) */
+#about .button.is-primary {
+	width: 100%;
+	background-color: var(--color-success);
+}
+
+/* Make Send message button normal size for desktop */
+@media
+only screen and (min-width: 760px)  {
+	#about .button.is-primary {
+		width: initial;
+	}
 }

@@ -23,7 +23,7 @@ You can interact with the newsletter by visiting the [Makeup Mirage](https://mom
 
 ### Prerequisites
 
-No prerequisites at this time.
+Run `npm install` to ensure you have the necessary dependencies.
 
 ### Contribute
 

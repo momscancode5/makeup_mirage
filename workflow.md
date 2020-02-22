@@ -29,7 +29,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 4. Run `git add <filename>` to stage your changes.
 5. Run `git commit -m "<message>"` to save your changes.
 6. Run `git push origin <branch name>` to push your changes to the current development branch.
-7. Once your changes have been pushed to the current branch, go to the remote repository on [github.com](https://github.com/momscancode5/project) and create a new pull request. Make sure you are comparing your branch with the master branch from the original repository.
+7. Once your changes have been pushed to the current branch, go to the remote repository on [github.com](https://github.com/momscancode5/makeup_mirage) and create a new pull request. Make sure you are comparing your branch with the master branch from the original repository.
 8. Wait until the original repository administrator has merged your changes.
 
 Repeat these steps as necessary.

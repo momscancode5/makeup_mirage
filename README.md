@@ -17,7 +17,7 @@ Our goal is to create a space where people can find information that will help t
 
 ## Getting Started
 
-You can interact with the newsletter by visiting the [Makeup Mirage](https://momscancode5.github.io/makeup_mirage/) site. Feel free to look around and click on the links. In addition, we want to hear from you. In our [About](https://momscancode5.github.io/makeup_mirage/about.html) page you can fill out the contact form and send. This contact form is connected that to a live email account.
+You can interact with the website by visiting the [Makeup Mirage](https://momscancode5.github.io/makeup_mirage/) site. Feel free to look around and click on the links. In addition, we want to hear from you. In our [About](https://momscancode5.github.io/makeup_mirage/about.html) page you can fill out the contact form and send. This contact form is connected that to a live email account.
 
 ## Pull Requests Welcome
 
@@ -35,7 +35,7 @@ Bug reports and pull requests are welcome on GitHub at our [repository](https://
 
 ## License - The MIT License (MIT)
 
-Copyright (c) 2020 Kristi Dugan, Yomaira Escano, Emily Winerock, Samantha Banks, Shradha Doshi, Nadia Green
+Copyright &copy; 2020 Kristi Dugan, Yomaira Escano, Emily Winerock, Samantha Banks, Shradha Doshi, Nadia Green
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

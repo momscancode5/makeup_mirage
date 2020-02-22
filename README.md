@@ -1,6 +1,6 @@
 # Moms Can Code Cohort 5 Final Project
 
-## [Makeup Mirage](<img src="favicon-32x32.png">)
+## Makeup Mirage
 
 What is in our makeup? Can we trust that all ingredients are safe? How do we know that the makeup we buy is real and not counterfeit? These are some of the questions that the Moms Can Code Cohort 5 team sought to answer as part of their final project.
 

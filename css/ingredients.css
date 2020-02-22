@@ -18,7 +18,8 @@
 
 /* Common ingredients colors */
 .message.is-primary .message-header {
-  background-color: var(--color-primary);
+  background-color: initial;
+  background-image: linear-gradient(to right, #696e8d, #696e8d20);
 }
 
 .message.is-primary {
@@ -27,7 +28,8 @@
 
 /* Harmful ingredients colors */
 .message.is-danger .message-header {
-  background-color: var(--color-danger);
+  background-color: initial;
+  background-image: linear-gradient(to right, #b0436b, #b0436b20);
 }
 
 .message.is-danger {

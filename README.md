@@ -1,10 +1,10 @@
-# Moms Can Code Cohort 5 Final Project
+# ![favicon-32x32](https://user-images.githubusercontent.com/27531265/75087498-2e6d3200-550f-11ea-93ce-2fa5154f1221.png) Makeup Mirage
 
-## ![favicon-32x32](https://user-images.githubusercontent.com/27531265/75087498-2e6d3200-550f-11ea-93ce-2fa5154f1221.png) Makeup Mirage
+## Moms Can Code Cohort 5 Final Project
 
 What is in our makeup? Can we trust that all ingredients are safe? How do we know that the makeup we buy is real and not counterfeit? These are some of the questions that the Moms Can Code Cohort 5 team sought to answer as part of their final project.
 
-Our goal is to create a space where people can find information that will help them make informed decisions about the makeup they buy. Whether it's learning about the common ingredients found in makeup to providing educational materials to help identify counterfeit makeup, this website is about finding ways to equip all of us with relevant information under one unifying umbrella - Makeup Mirage.
+Our goal is to create a space where people can find information that will help them make informed decisions about the makeup they buy. Whether it's learning about the common ingredients found in makeup or providing educational materials to help identify counterfeit makeup, this website is about finding ways to equip all of us with relevant information under one unifying umbrella - Makeup Mirage.
 
 ## Team Members
 
@@ -17,7 +17,7 @@ Our goal is to create a space where people can find information that will help t
 
 ## Getting Started
 
-You can interact with the newsletter by visiting the [Makeup Mirage](https://momscancode5.github.io/project/) site. Feel free to look around and click on the links. In addition, we want to hear from you. In our [About](https://momscancode5.github.io/project/about.html) page you can fill out the contact form and send. This contact form is connected that to a live email account.
+You can interact with the newsletter by visiting the [Makeup Mirage](https://momscancode5.github.io/makeup_mirage/) site. Feel free to look around and click on the links. In addition, we want to hear from you. In our [About](https://momscancode5.github.io/makeup_mirage/about.html) page you can fill out the contact form and send. This contact form is connected that to a live email account.
 
 ## Pull Requests Welcome
 
@@ -31,7 +31,7 @@ Please follow our [workflow instructions](workflow.md) for access and contributi
 
 ### Contributor Covenant [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
-Bug reports and pull requests are welcome on GitHub at our [repository](https://github.com/momscancode5/project). This project is intended to be a safe, welcoming space of collaboration, and contributors are expected to adhere to the [Contributor Covenant Code of Conduct](Contributing.md).
+Bug reports and pull requests are welcome on GitHub at our [repository](https://github.com/momscancode5/makeup_mirage). This project is intended to be a safe, welcoming space of collaboration, and contributors are expected to adhere to the [Contributor Covenant Code of Conduct](Contributing.md).
 
 ## License - The MIT License (MIT)
 

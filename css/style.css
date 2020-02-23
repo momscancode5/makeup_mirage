@@ -1,3 +1,12 @@
+html {
+	scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 /* Move main down since top nav is fixed  */
 main {
 	margin-top: 3.25rem;

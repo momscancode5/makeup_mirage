@@ -14,7 +14,7 @@ The rampant availability of counterfeit makeup products in the market is a serio
 
 Despite thinking that we knew the exact problem we wanted to solve, we needed to implement a process that would allow us to define the problem more clearly to ultimately find a viable solution. Below please find the process we followed to come to our website:
 
-[Requirements](REQUIREMENTS.md)
+[Requirements](PROJECT_REQUIREMENTS.md)
 
 ## Team Members
 

@@ -2,7 +2,7 @@
 
 ## Moms Can Code Cohort 5 Final Project
 
-What is in our makeup? Can we trust that all ingredients are safe? How do we know that the makeup we buy is real and not counterfeit? These are some of the questions that the Moms Can Code Cohort 5 team sought to answer as part of their final project.
+What is in our makeup? Can we trust that all ingredients are safe? How do we know that the makeup we buy is real and not counterfeit? These are some of the questions that the Moms Can Code Cohort 5 team sought to answer as part of our final project.
 
 Our goal is to create a space where people can find information that will help them make informed decisions about the makeup they buy. Whether it's learning about the common ingredients found in makeup or providing educational materials to help identify counterfeit makeup, this website is about finding ways to equip all of us with relevant information under one unifying umbrella - Makeup Mirage.
 
@@ -12,34 +12,9 @@ The rampant availability of counterfeit makeup products in the market is a serio
 
 ## Project Requirements
 
-Despite thinking that we knew the exact problem we wanted to solve, we needed to implement a process that would allow us to define the problem more clearly to ultimately find a viable solution. Below please find the process we followed to come to our website solution:
+Despite thinking that we knew the exact problem we wanted to solve, we needed to implement a process that would allow us to define the problem more clearly to ultimately find a viable solution. Below please find the process we followed to come to our website:
 
-**Final Project - Week 1**
-
-1. Establish team roles.
-2. Research our topic.
-
-**Final Project - Week 2**
-
-1. Create stakeholder map.
-2. Create empathy map.
-3. Create survey to get user input.
-
-**Final Project - Week 3**
-
-1. Finalize and distribute survey
-2. Analyze results of survey.
-
-**Final Project - Week 4**
-
-1. Develop website as a solution to defined problem.
-2. Prepare slide presentation.
-
-**Final Project - Week 5**
-
-1. Finalize and test website.
-2. Collect preliminary feedback from possible users.
-3. Finalize presentation materials.
+[Requirements](REQUIREMENTS.md)
 
 ## Team Members
 

@@ -137,6 +137,26 @@ header nav {
 	color: var(--color-info);
 }
 
+/* Show button focus on tab */
+.button.is-primary:focus:not(:active),
+.button.is-danger:focus:not(:active),
+.button.is-success:focus:not(:active),
+.button.is-info:focus:not(:active) {
+	box-shadow: 0 0 5px 0.25em #fafafa7d;
+}
+
+a.image-link:focus:not(:active) img {
+	box-shadow: 0 0 5px 0.25em #fafafa7d;
+}
+
+#about .button.is-primary:focus:not(:active) {
+	box-shadow: 0 0 0.1em 0.125em #3273DB7d;
+}
+
+figure {
+	margin-bottom: .5em;
+}
+
 .card {
 	margin-bottom: 2em;
 }

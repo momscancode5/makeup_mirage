@@ -2,9 +2,9 @@ html {
 	scroll-behavior: smooth;
 }
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
+	html {
+		scroll-behavior: auto;
+	}
 }
 
 /* Move main down since top nav is fixed  */
@@ -14,6 +14,25 @@ main {
 
 header nav {
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Label hamburger menu with word "Menu" */
+.navbar-burger.burger::before {
+	content: "Menu";
+	left: -3.25em;
+	top: 0;
+	height: 3.25em;
+	text-align: right;
+	padding-top: 0.8em;
+	padding-left: 1.2em;
+	display: block;
+	position: relative;
+	z-index: 10;
+	color: #555;
+}
+
+.navbar-burger.burger:hover:before {
+	background-color: rgba(0, 0, 0, 0.05);
 }
 
 #what-we-do {
@@ -137,8 +156,7 @@ header nav {
 }
 
 /* Make Send message button normal size for desktop */
-@media
-only screen and (min-width: 760px)  {
+@media only screen and (min-width: 760px) {
 	#about .button.is-primary {
 		width: initial;
 	}

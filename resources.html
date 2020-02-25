@@ -1,352 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Find educational resources about makeup safety and counterfeit cosmetics."
+    />
+    <title>Makeup Mirage - Resources</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script defer src="js/global.js"></script>
+    <!-- favicon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- end favicon stuff -->
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Find educational resources about makeup safety and counterfeit cosmetics.">
-	<title>Makeup Mirage - Resources</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-	<script defer src="js/global.js"></script>
-	<!-- favicon stuff -->
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="manifest" href="site.webmanifest">
-	<!-- end favicon stuff -->
-</head>
+  <body id="resources">
+    <header>
+      <nav
+        class="navbar is-fixed-top"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+              <img
+                src="images/makeup-mirage.png"
+                alt="Makeup Mirage"
+                width="220"
+                height="28"
+              />
+            </a>
+            <!-- Hamburger menu -->
+            <a
+              role="button"
+              class="navbar-burger burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarBasicExample"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+            <!-- end Hamburger menu -->
+          </div>
+          <!-- start Nav items -->
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item" href="index.html">
+                Home
+              </a>
 
-<body id="resources">
-	<header>
-		<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-			<div class="container">
-				<div class="navbar-brand">
-					<a class="navbar-item" href="index.html">
-						<img src="images/makeup-mirage.png" alt="Makeup Mirage" width="220" height="28" />
-					</a>
-					<!-- Hamburger menu -->
-					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-						data-target="navbarBasicExample">
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-					</a>
-					<!-- end Hamburger menu -->
-				</div>
-				<!-- start Nav items -->
-				<div id="navbarBasicExample" class="navbar-menu">
-					<div class="navbar-start">
-						<a class="navbar-item" href="index.html">
-							Home
-						</a>
+              <a class="navbar-item" href="trending.html">
+                Currently Trending
+              </a>
 
-						<a class="navbar-item" href="trending.html">
-							Currently Trending
-						</a>
+              <a class="navbar-item" href="ingredients.html">
+                Ingredients
+              </a>
 
-						<a class="navbar-item" href="ingredients.html">
-							Ingredients
-						</a>
+              <a class="navbar-item" href="reporting.html">
+                Reporting
+              </a>
 
-						<a class="navbar-item" href="reporting.html">
-							Reporting
-						</a>
+              <a class="navbar-item is-active" href="resources.html">
+                Resources
+              </a>
 
-						<a class="navbar-item is-active" href="resources.html">
-							Resources
-						</a>
+              <a class="navbar-item" href="about.html">
+                About
+              </a>
+            </div>
+          </div>
+          <!-- end Nav items -->
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero is-medium is-primary has-image">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Makeup Mirage
+            </h1>
+            <h2 class="subtitle">
+              Demystifying Makeup
+            </h2>
+          </div>
+        </div>
+      </section>
 
-						<a class="navbar-item" href="about.html">
-							About
-						</a>
+      <section class="section">
+        <div class="container content">
+          <h3 class="title is-3">Resources</h3>
+          <p class="subtitle">
+            Thanks to increased news coverage of
+            <a href="#counterfeit">counterfeit and unsafe cosmetics</a>, we are
+            seeing more efforts by the beauty industry, as well as the
+            government, to protect and educate the public about makeup safety.
+            However,
+            <a href="#regulations">
+              regulatory and enforcement agencies
+            </a>
+            are still playing catchup to the counterfeiters, so it's up to you
+            to <a href="#safe-makeup">keep yourself safe</a>. Please educate
+            yourself and <a href="#share-your-story">share your story</a>!
+          </p>
+          <ul>
+            <li><a href="#regulations">Government Regulations</a></li>
+            <li><a href="#counterfeit">All About Counterfeit Makeup</a></li>
+            <li><a href="#safe-makeup">How to Buy Safe Makeup</a></li>
+            <li><a href="#share-your-story">Share Your Story</a></li>
+          </ul>
+        </div>
+      </section>
 
-					</div>
-				</div>
-				<!-- end Nav items -->
-			</div>
-		</nav>
-	</header>
-	<main>
-		<section class="hero is-medium is-primary has-image">
-			<div class="hero-body">
-				<div class="container">
-					<h1 class="title">
-						Makeup Mirage
-					</h1>
-					<h2 class="subtitle">
-						Demystifying Makeup
-					</h2>
-				</div>
-			</div>
-		</section>
+      <section id="regulations" class="section">
+        <div class="container">
+          <div class="columns is-variable is-8">
+            <div class="column content is-two-thirds">
+              <h4 class="title is-4">
+                Facts About Government Regulations (or lack thereof)
+              </h4>
+              <p>
+                The Federal Food, Drug and Cosmetics Act (FFDCA) includes 112
+                pages of standards for food and drugs, but just two pages for
+                cosmetic safety. The cosmetics title of the FFDCA, which has not
+                been amended significantly since it was enacted more than 80
+                years ago, provides virtually no power to perform even the most
+                rudimentary functions to ensure the safety of an estimated $84
+                billion cosmetic industry.
+              </p>
+              <p>
+                In the absence of government authority, the safety of personal
+                care product ingredients is evaluated through a voluntary
+                industry program known as the Cosmetic Ingredient Review
+                process. The CIR has reviewed less than 20% of the FDA estimated
+                12,500 chemicals used in cosmetics, and of those the CIR has
+                reviewed, they have found only 9 chemicals unsafe for use in
+                cosmetics. What safety data does exist focuses on acute
+                reactions to products, such as skin rashes or allergic
+                reactions, as opposed to studies that look at chronic health
+                effects from chemicals in personal care products, like cancer,
+                reproductive or nervous system effect that are driven by genetic
+                susceptibility, the timing of exposure, and aggregate exposures
+                over a lifetime.
+              </p>
+            </div>
+            <div class="column">
+              <div class="message is-light">
+                <div class="message-body content">
+                  <h4 class="title is-4">
+                    Suggested Links
+                  </h4>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.stopfakes.gov/article?id=Report-Unsafe-Consumer-Products"
+                        target="_blank"
+                        >Report on StopFakes</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.fda.gov/cosmetics/cosmetics-laws-regulations/fda-authority-over-cosmetics-how-cosmetics-are-not-fda-approved-are-fda-regulated"
+                        target="_blank"
+                        >Know difference between FDA Regulated vs FDA
+                        Approved</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://safecosmetics.cdph.ca.gov/search/"
+                        target="_blank"
+                        >California Safe Cosmetics Program Product Database</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="counterfeit" class="section">
+        <div class="container">
+          <div class="columns is-variable is-8">
+            <div class="column content is-two-thirds">
+              <h4 class="title is-4">
+                All About Counterfeit Makeup
+              </h4>
+              <p>
+                <b>What is Counterfeit Makeup?</b> Counterfeit or "fake" makeup
+                is makeup that intentionally looks the same as a brand-name
+                product but isn't. It is also illegal. Counterfeiters imitate
+                the packaging of authentic products closely to fool the
+                customer, but the contents inside could be anything.
+              </p>
+              <p>
+                Counterfeiters have to use cheaper ingredients than the
+                authentic version in order to sell the item for less, since
+                price is the only reason a customer would buy a fake instead of
+                the real item. But using cheaper ingredients, plus shortcuts in
+                processing, again to keep costs down, can make counterfeits
+                extremely dangerous. The FBI reports that its agents have found
+                human carcinogens, aluminum, dangerous levels of bacteria, and
+                even human urine and feces (!!!) in the products they’ve seized.
+              </p>
+              <p>
+                Counterfeits are also a growing problem. Global seizures jumped
+                25 percent between 2011 and 2013. In 2016 alone, the government
+                reportedly seized over 2.8 million fake makeup products (most of
+                them MAC knockoffs).
+              </p>
+              <p>
+                <b>Knockoffs</b> are cheaper versions that look similar to but
+                not the exactly the same as brand-name products. Oftentimes,
+                they will use a slightly different spelling of the product name.
+              </p>
+              <p>
+                Knockoffs are not necessarily illegal, for example, most grocery
+                stores and pharmacies have their own off-brand or knockoff
+                versions of name-brand products, but you should still think
+                twice about buying cheap makeup, especially if you have any
+                allergies or sensitivities. The reason that knockoffs are
+                cheaper is because they use cheaper ingredients. Plus, it is
+                difficult to distinguish legal knockoffs that abide by FDA
+                regulations from those that don't.
+              </p>
+              <p>Basically, if it seems too good to be true, it probably is!</p>
+            </div>
+            <div class="column">
+              <div class="message is-light">
+                <div class="message-body content">
+                  <h4 class="title is-4">
+                    Suggested Links
+                  </h4>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://cosmeticsinfo.org/blog/counterfeit-cosmetics-too-good-be-true"
+                        target="_blank"
+                        >Unknown dangerous ingredients found in Counterfeit
+                        Make-up</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.refinery29.com/en-us/2018/04/196518/counterfeit-makeup-tested-for-human-waste"
+                        target="_blank"
+                        >High levels of lead and feces in counterfeit Make-up</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.refinery29.com/en-us/2017/08/165109/fake-makeup-trend-mac-kylie-cosmetics"
+                        target="_blank"
+                        >Inside the Seedy World of Counterfeit Makeup</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://itsblossom.com/identify-counterfeit-cosmetics/"
+                        target="_blank"
+                        >Identify Counterfeit Cosmetics</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://brightside.me/inspiration-girls-stuff/7-clever-tips-to-spot-fake-designer-makeup-232060/"
+                        target="_blank"
+                        >Tips to spot fake-up</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.dhs.gov/sites/default/files/publications/20_0124_plcy_counterfeit-pirated-goods-report_01.pdf"
+                        target="_blank"
+                        >Homeland Security's Report on Counterfeit and Pirated
+                        Goods</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.insider.com/how-to-tell-if-makeup-is-fake-2020-1"
+                        target="_blank"
+                        >How to Tell If Makeup is Fake</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.anastasiabeverlyhills.com/counterfeit-education.html"
+                        target="_blank"
+                        >Counterfeit Education - Anastasia Beverly Hills</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://imancosmetics.com/pages/counterfeit-education"
+                        target="_blank"
+                        >Counterfeit Education - IMAN Cosmetics</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.maccosmetics.com/counterfeit-education"
+                        target="_blank"
+                        >Counterfeit Education - M·A·C</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<section class="section">
-			<div class="container content">
-				<h3 class="title is-3">Resources</h3>
-				<p class="subtitle">Thanks to increased news coverage of <a href="#counterfeit">counterfeit and unsafe
-						cosmetics</a>, we are seeing more
-					efforts by
-					the beauty industry, as well as the government, to protect and educate the public about makeup safety.
-					However, <a href="#regulations">
-						regulatory and enforcement
-						agencies
-					</a> are still playing catchup to the counterfeiters, so it's up to you to <a href="#safe-makeup">keep
-						yourself safe</a>. Please
-					educate yourself and <a href="#share-your-story">share your story</a>!
-				</p>
-				<ul>
-					<li><a href="#regulations">Government Regulations</a></li>
-					<li><a href="#counterfeit">All About Counterfeit Makeup</a></li>
-					<li><a href="#safe-makeup">How to Buy Safe Makeup</a></li>
-					<li><a href="#share-your-story">Share Your Story</a></li>
-				</ul>
-			</div>
-		</section>
+      <section id="safe-makeup" class="section">
+        <div class="container">
+          <div class="columns is-variable is-8">
+            <div class="column content is-two-thirds">
+              <h4 class="title is-4">
+                How to Buy Safe Makeup
+              </h4>
+              <p>
+                <b
+                  >The best way to stay safe is to buy your makeup from a
+                  reputable seller</b
+                >. Avoid mysterious online vendors, such as Amazon third-party
+                resellers, overseas sellers on eBay, and products sold in
+                Instagram and Facebook ads. However, even reputable resellers
+                like Sephora and ULTA can be fooled by counterfeits, and
+                legitimate products expire, so check expiration dates.
+              </p>
 
+              <p>
+                Here are the FBI's tips for recognizing suspicious or
+                counterfeit cosmetics:
+              </p>
+              <ul>
+                <li>
+                  Packaging is slightly different from the authentic brand
+                  (different color, lettering) or the label is askew or poorly
+                  printed
+                </li>
+                <li>
+                  Product is advertised as a "limited edition" even though the
+                  manufacturer doesn't offer a limited edition (check
+                  manufacturer's website)
+                </li>
+                <li>
+                  The price is either slightly or dramatically lower than usual,
+                  and may be advertised as discount, cheap, or outlet pricing
+                </li>
+                <li>Consistency, texture, or color seem different</li>
+                <li>The scent seems a little off</li>
+                <li>
+                  The product is being sold at a non-authorized retailer (flea
+                  market, mall kiosk, online)
+                </li>
+              </ul>
+              <p>
+                Educating yourself about what should and shouldn't be in your
+                makeup is also a good idea. Check out our introduction to the
+                most
+                <b><a href="ingredients.html">Common Makeup Ingredients</a></b>
+                and what they do.
+              </p>
+            </div>
+            <div class="column">
+              <div class="message is-light">
+                <div class="message-body content">
+                  <h4 class="title is-4">
+                    Suggested Links
+                  </h4>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.fbi.gov/news/stories/counterfeit-cosmetics-fragrances"
+                        target="_blank"
+                        >FBI: Counterfeit Cosmetics, Fragrances Hazardous to
+                        Your Health</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://www.ewg.org/skindeep/" target="_blank"
+                        >EWG's Skin Deep</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://www.madesafe.org/" target="_blank"
+                        >Made Safe</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://www.thinkdirtyapp.com/" target="_blank"
+                        >Think Dirty</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://www.cosdna.com/eng/" target="_blank"
+                        >CosDNA Product and Ingredient Finger</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<section id="regulations" class="section">
-			<div class="container">
-				<div class="columns is-variable is-8">
-					<div class="column content is-two-thirds">
-						<h4 class="title is-4">
-							Facts About Government Regulations (or lack thereof)
-						</h4>
-						<p>The Federal Food, Drug and Cosmetics Act (FFDCA) includes 112 pages of standards for food and drugs, but
-							just two pages for cosmetic safety. The cosmetics title of the FFDCA, which has not been amended
-							significantly since it was enacted more than 80 years ago, provides virtually no power to perform even the
-							most rudimentary functions to ensure the safety of an estimated $84 billion cosmetic industry.
-						</p>
-						<p>In the absence of government authority, the safety of personal care product ingredients is evaluated
-							through a voluntary industry program known as the Cosmetic Ingredient Review process. The CIR has reviewed
-							less than 20% of the FDA estimated 12,500 chemicals used in cosmetics, and of those the CIR has reviewed,
-							they have found only 9 chemicals unsafe for use in cosmetics. What safety data does exist focuses on acute
-							reactions to products, such as skin rashes or allergic reactions, as opposed to studies that look at
-							chronic health effects from chemicals in personal care products, like cancer, reproductive or nervous
-							system effect that are driven by genetic susceptibility, the timing of exposure, and aggregate exposures
-							over a lifetime.</p>
-					</div>
-					<div class="column">
-						<div class="message is-light">
-							<div class="message-body content">
-								<h4 class="title is-4">
-									Suggested Links
-								</h4>
-								<ul>
-									<li><a href="https://www.stopfakes.gov/article?id=Report-Unsafe-Consumer-Products"
-											target="_blank">Report
-											on StopFakes</a></li>
-									<li><a
-											href="https://www.fda.gov/cosmetics/cosmetics-laws-regulations/fda-authority-over-cosmetics-how-cosmetics-are-not-fda-approved-are-fda-regulated"
-											target="_blank">Know difference between FDA Regulated vs FDA Approved</a></li>
-									<li><a href="https://safecosmetics.cdph.ca.gov/search/" target="_blank">California Safe Cosmetics
-											Program
-											Product Database</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
+      <section id="share-your-story" class="section">
+        <div class="container">
+          <div class="columns is-variable is-8">
+            <div class="column content is-two-thirds">
+              <h4 class="title is-4">
+                Be Part of the Solution: Share Your Story
+              </h4>
+              <p>
+                It is important to spread awareness about a product if you have
+                personally experienced an adverse reaction. Report the incident
+                and product to the proper authorities as soon as possible. If
+                this sounds daunting, see our advice on
+                <b
+                  ><a href="reporting.html"
+                    >How to Report a Bad Reaction or Possible Counterfeit</a
+                  ></b
+                >.
+              </p>
 
-				</div>
+              <p>
+                Also consider posting to relevant social media sites to increase
+                awareness and help prevent others from having a similar negative
+                experience. Just remember that you might have used a counterfeit
+                product, especially if you bought it at a discount or from a
+                reseller (as opposed to from the manufacturer), so please be
+                careful about making accusations. It's more helpful to say, "I
+                bought this product from this place on this date and this is
+                what happened to me" instead of "No one should buy this product
+                because it causes this terrible reaction."
+              </p>
+            </div>
+            <div class="column">
+              <div class="message is-light">
+                <div class="message-body content">
+                  <h4 class="title is-4">
+                    Suggested Links and Apps
+                  </h4>
 
-			</div>
-		</section>
-
-
-		<section id="counterfeit" class="section">
-			<div class="container">
-				<div class="columns is-variable is-8">
-					<div class="column content is-two-thirds">
-						<h4 class="title is-4">
-							All About Counterfeit Makeup
-						</h4>
-						<p> <b>What is Counterfeit Makeup?</b> Counterfeit or "fake" makeup is makeup that intentionally looks the
-							same as a
-							brand-name product but isn't. It is also illegal. Counterfeiters imitate the packaging of authentic
-							products closely
-							to fool the customer, but the contents inside could be anything.
-						</p>
-						<p>Counterfeiters have to use cheaper ingredients than
-							the authentic version in order to sell the item for less, since price is the only reason a customer would
-							buy a fake instead of the real item.
-							But using cheaper ingredients, plus shortcuts in processing, again to keep costs down, can make
-							counterfeits extremely dangerous.
-							The FBI reports that its agents have found human carcinogens, aluminum, dangerous levels of bacteria,
-							and even human urine and feces (!!!) in the products they’ve seized.</p>
-						<p>Counterfeits are also a growing problem. Global seizures jumped 25 percent between 2011 and 2013.
-							In 2016 alone, the government reportedly seized over 2.8 million fake makeup products (most of them MAC
-							knockoffs).</p>
-						<p><b>Knockoffs</b> are cheaper versions that look similar to but not the exactly the same as brand-name
-							products.
-							Oftentimes, they will use a slightly different spelling of the product name.</p>
-						<p>Knockoffs are not necessarily illegal, for example, most grocery stores and pharmacies have their own
-							off-brand or knockoff versions of
-							name-brand products, but you should still think twice about buying cheap makeup, especially if you have
-							any allergies or sensitivities.
-							The reason that knockoffs are cheaper is because they use cheaper ingredients. Plus, it is difficult to
-							distinguish legal knockoffs that
-							abide by FDA regulations from those that don't.
-						</p>
-						<p>Basically, if it seems too good to be true, it probably is!</p>
-					</div>
-					<div class="column">
-						<div class="message is-light">
-							<div class="message-body content">
-								<h4 class="title is-4">
-									Suggested Links
-								</h4>
-								<ul>
-									<li><a href="https://cosmeticsinfo.org/blog/counterfeit-cosmetics-too-good-be-true"
-											target="_blank">Unknown dangerous ingredients found in Counterfeit Make-up</a></li>
-									<li><a
-											href="https://www.refinery29.com/en-us/2018/04/196518/counterfeit-makeup-tested-for-human-waste"
-											target="_blank">High levels of lead and feces in counterfeit Make-up</a></li>
-									<li><a href="https://www.refinery29.com/en-us/2017/08/165109/fake-makeup-trend-mac-kylie-cosmetics"
-												target="_blank">Inside the Seedy World of Counterfeit Makeup</a></li>
-									<li><a href="https://itsblossom.com/identify-counterfeit-cosmetics/" target="_blank">Identify
-											Counterfeit
-											Cosmetics</a></li>
-									<li><a
-											href="https://brightside.me/inspiration-girls-stuff/7-clever-tips-to-spot-fake-designer-makeup-232060/"
-											target="_blank">Tips to spot fake-up</a></li>
-									<li><a
-											href="https://www.dhs.gov/sites/default/files/publications/20_0124_plcy_counterfeit-pirated-goods-report_01.pdf">Homeland
-											Security's Report on Counterfeit and Pirated Goods</a></li>
-									<li><a href="https://www.anastasiabeverlyhills.com/counterfeit-education.html" target="_blank">Counterfeit Education - Anastasia Beverly Hills</a></li>
-									<li><a href="https://imancosmetics.com/pages/counterfeit-education" target="_blank">Counterfeit Education - IMAN Cosmetics</a></li>
-									<li><a href="https://www.maccosmetics.com/counterfeit-education" target="_blank">Counterfeit Education - M·A·C</a></li>
-
-								</ul>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
-
-		<section id="safe-makeup" class="section">
-			<div class="container">
-				<div class="columns is-variable is-8">
-					<div class="column content is-two-thirds">
-						<h4 class="title is-4">
-							How to Buy Safe Makeup
-						</h4>
-						<p>
-							<b>The best way to stay safe is to buy your makeup from a reputable seller</b>. Avoid mysterious online
-							vendors, such as Amazon third-party resellers,
-							overseas sellers on eBay, and products sold in Instagram and Facebook ads. However, even reputable
-							resellers like Sephora and ULTA can be fooled by
-							counterfeits, and legitimate products expire, so check expiration dates.
-						</p>
-
-						<p>Here are the FBI's tips for recognizing suspicious or counterfeit cosmetics:</p>
-						<ul>
-							<li>Packaging is slightly different from the authentic brand (different color, lettering) or the label is
-								askew or poorly printed</li>
-							<li>Product is advertised as a "limited edition" even though the manufacturer doesn't offer a limited
-								edition (check manufacturer's website)</li>
-							<li>The price is either slightly or dramatically lower than usual, and may be advertised as discount,
-								cheap, or outlet pricing</li>
-							<li>Consistency, texture, or color seem different</li>
-							<li>The scent seems a little off</li>
-							<li>The product is being sold at a non-authorized retailer (flea market, mall kiosk, online)</li>
-						</ul>
-						<p>Educating yourself about what should and shouldn't be in your makeup is also a good idea. Check out our
-							introduction to the most
-							<b><a href="ingredients.html">Common Makeup Ingredients</a></b> and what they do.</p>
-					</div>
-					<div class="column">
-						<div class="message is-light">
-							<div class="message-body content">
-								<h4 class="title is-4">
-									Suggested Links
-								</h4>
-								<ul>
-									<li><a href="https://www.fbi.gov/news/stories/counterfeit-cosmetics-fragrances" target="_blank">FBI:
-											Counterfeit Cosmetics, Fragrances Hazardous to Your Health</a></li>
-									<li><a href="https://www.ewg.org/skindeep/" target="_blank">EWG's Skin Deep</a></li>
-									<li><a href="https://www.madesafe.org/" target="_blank">Made Safe</a></li>
-									<li><a href="https://www.thinkdirtyapp.com/" target="_blank">Think Dirty</a></li>
-									<li><a href="http://www.cosdna.com/eng/" target="_blank">CosDNA Product and Ingredient Finger</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
-
-		<section id="share-your-story" class="section">
-			<div class="container">
-				<div class="columns is-variable is-8">
-					<div class="column content is-two-thirds">
-						<h4 class="title is-4">
-							Be Part of the Solution: Share Your Story
-						</h4>
-						<p>It is important to spread awareness about a product if you have personally experienced an adverse
-							reaction.
-							Report the incident and product to the proper authorities as soon as possible.
-							If this sounds daunting, see our advice on <b><a href="reporting.html">How to Report a Bad Reaction or
-									Possible Counterfeit</a></b>. </p>
-
-						<p>Also consider posting to relevant social media sites to increase awareness and help prevent others from
-							having a
-							similar negative experience. Just remember that you might have used a counterfeit product, especially
-							if you bought it at a discount or from a reseller (as opposed to from the manufacturer), so please be
-							careful about
-							making accusations. It's more helpful to say, "I bought this product from this place on this date and this
-							is
-							what happened to me" instead of "No one should buy this product because it causes this terrible reaction."
-						</p>
-
-
-					</div>
-					<div class="column">
-						<div class="message is-light">
-							<div class="message-body content">
-								<h4 class="title is-4">
-									Suggested Links and Apps
-								</h4>
-
-								<ul>
-									<li><a href="https://twitter.com/SafeCosmeticsHQ" target="_blank">Tweet at Safer Cosmetics</a></li>
-									<li><a href="https://twitter.com/SaferChemicals" target="_blank">Tweet at Safer Chemicals</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-
-	</main>
-	<footer class="footer">
-		<div class="container content has-text-centered has-text-grey">
-			<p>Copyright &copy; 2020 Makeup Mirage.</p>
-			<p>
-				<span class="icon is-medium">
-					<a href="https://twitter.com/MakeupMirage6" title="Twitter" target="_blank"><i
-							class="fab fa-lg fa-twitter has-text-grey-light"></i><span class="sr-only">Twitter</span></a>
-				</span>
-				<span class="icon is-medium">
-					<a href="mailto:makeupmirage6@gmail.com" title="Email"><i
-							class="far fa-lg fa-envelope has-text-grey-light"></i><span class="sr-only">Email</span></a>
-				</span>
-				<span class="icon is-medium">
-					<a href="https://github.com/momscancode5/makeup_mirage" title="GitHub" target="_blank"><i
-							class="fab fa-lg fa-github has-text-grey-light"></i><span class="sr-only">GitHub</span></a>
-				</span>
-			</p>
-		</div>
-	</footer>
-</body>
-
+                  <ul>
+                    <li>
+                      <a
+                        href="https://twitter.com/SafeCosmeticsHQ"
+                        target="_blank"
+                        >Tweet at Safer Cosmetics</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/SaferChemicals"
+                        target="_blank"
+                        >Tweet at Safer Chemicals</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container content has-text-centered has-text-grey">
+        <p>Copyright &copy; 2020 Makeup Mirage.</p>
+        <p>
+          <span class="icon is-medium">
+            <a
+              href="https://twitter.com/MakeupMirage6"
+              title="Twitter"
+              target="_blank"
+              ><i class="fab fa-lg fa-twitter has-text-grey-light"></i
+              ><span class="sr-only">Twitter</span></a
+            >
+          </span>
+          <span class="icon is-medium">
+            <a href="mailto:makeupmirage6@gmail.com" title="Email"
+              ><i class="far fa-lg fa-envelope has-text-grey-light"></i
+              ><span class="sr-only">Email</span></a
+            >
+          </span>
+          <span class="icon is-medium">
+            <a
+              href="https://github.com/momscancode5/makeup_mirage"
+              title="GitHub"
+              target="_blank"
+              ><i class="fab fa-lg fa-github has-text-grey-light"></i
+              ><span class="sr-only">GitHub</span></a
+            >
+          </span>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

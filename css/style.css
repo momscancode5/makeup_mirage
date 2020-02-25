@@ -17,22 +17,32 @@ header nav {
 }
 
 /* Label hamburger menu with word "Menu" */
-.navbar-burger.burger::before {
+.navbar-burger.burger::after {
 	content: "Menu";
-	left: -3.25em;
-	top: 0;
-	height: 3.25em;
-	text-align: right;
-	padding-top: 0.8em;
-	padding-left: 1.2em;
+	top: 4em;
+	text-align: center;
 	display: block;
 	position: relative;
-	z-index: 10;
-	color: #555;
+	color: #777;
+	font-size: .5em;
+	text-transform: uppercase;
 }
 
-.navbar-burger.burger:hover:before {
-	background-color: rgba(0, 0, 0, 0.05);
+/* Increase width of burger lines */
+.navbar-burger span {
+	width: 22px;
+	left: calc(50% - 11px);
+}
+
+/* Move lines up to account for "Menu" label */
+.navbar-burger span:nth-child(1) {
+	top: calc(50% - 10px);
+}
+.navbar-burger span:nth-child(2) {
+	top: calc(50% - 5px);
+}
+.navbar-burger span:nth-child(3) {
+	top: calc(50%);
 }
 
 #what-we-do {

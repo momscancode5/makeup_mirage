@@ -1,4 +1,4 @@
-# ![favicon-32x32](https://user-images.githubusercontent.com/27531265/75087498-2e6d3200-550f-11ea-93ce-2fa5154f1221.png) Makeup Mirage
+# <img src="apple-touch-icon.png" width="24"> Makeup Mirage
 
 ## Moms Can Code Cohort 5 Final Project
 
